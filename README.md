@@ -1,2 +1,2 @@
-# d267updater
-aaaaaa
+# d2
+updater
