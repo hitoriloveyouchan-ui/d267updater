@@ -1,0 +1,71 @@
+{
+  "name": "dota-cosmetics-core",
+  "productName": "Менеджер модов",
+  "version": "0.3.9",
+  "description": "skinchanger",
+  "type": "module",
+  "main": "main.ts",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/smoke.ts && node test/hero-items.ts && node test/modfolder.ts && node test/gem.ts && node test/icons.ts && node test/spell-pictures.ts && node test/apply.ts && node test/own-animations.ts && node test/refit.ts && node test/emblem-ring.ts && node test/updates.ts && node test/auto-update.ts",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --win nsis portable",
+    "release": "electron-builder --win nsis portable --publish always"
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2"
+  },
+  "devDependencies": {
+    "electron": "^44.7.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "local.dota.mod.launcher",
+    "productName": "Менеджер модов",
+    "executableName": "DotaModLauncher",
+    "asar": false,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.ts",
+      "preload.cjs",
+      "package.json",
+      "src/**/*",
+      "ui/**/*",
+      "assets/**/*",
+      "LICENSE*",
+      "NOTICE*",
+      "!**/*.map"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico",
+      "artifactName": "DotaModLauncher-Setup-${version}.${ext}"
+    },
+    "linux": {
+      "icon": "assets/icon.png"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "hitoriloveyouchan-ui",
+        "repo": "d267updater"
+      }
+    ],
+    "portable": {
+      "artifactName": "DotaModLauncher-Portable-${version}.${ext}"
+    }
+  }
+}
