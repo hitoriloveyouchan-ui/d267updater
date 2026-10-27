@@ -1,10 +1,7 @@
 <div align="center">
 
-<img src="docs/banner.svg" alt="D2Changer" width="100%">
+<img src="docs/banner.webp" alt="D2Changer — Dota2 OpenSource SkinChanger" width="100%">
 
-# D2Changer
-
-**Dota2 OpenSource SkinChanger**
 
 [![Release](https://img.shields.io/github/v/release/ryuson3/d267updater?style=for-the-badge&color=2f7fd6)](https://github.com/ryuson3/d267updater/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/ryuson3/d267updater/total?style=for-the-badge&color=2f7fd6)](https://github.com/ryuson3/d267updater/releases)
@@ -18,20 +15,20 @@
 
 ## Возможности
 
-- **Косметика** - бесплатные слоты: курьер, вард, погода, загрузочный экран, анонсер и другие
-- **Предметы героев** - наборы, стили, арканы, эффекты, камни Kinetic Gem
-- **Эмблемы** - со своими эффектами атаки
-- **Перекраска эффектов** - свой цвет гема (например, аркана Terrorblade)
-- **Иконки способностей** - подмена картинок способностей
-- **3D-превью** - героя с надетыми предметами
-- **Пресеты** - сохраняй и меняй наборы одним кликом
-- **Автообновление** - новые версии ставятся сами
+- **Косметика** — бесплатные слоты: курьер, вард, погода, загрузочный экран, анонсер и другие
+- **Предметы героев** — наборы, стили, арканы, эффекты, камни Kinetic Gem
+- **Эмблемы** — со своими эффектами атаки
+- **Перекраска эффектов** — свой цвет гема (например, аркана Terrorblade)
+- **Иконки способностей** — подмена картинок способностей
+- **3D-превью** героя с надетыми предметами
+- **Пресеты** — сохраняй и меняй наборы одним кликом
+- **Автообновление** — новые версии ставятся сами
 
 ## D2Changer
 
 <div align="center">
 
-<img src="docs/intro.webp" alt="D2Changer" width="800">
+<img src="docs/tour.webp" alt="Демо D2Changer" width="800">
 
 </div>
 
@@ -69,6 +66,7 @@ npm run dist       # сборка установщика и portable
 ## Благодарности
 
 Окно «Косметика» собрано на коде [Dota 2 Mod Manager](https://github.com/TheFleece) (© 2026 TheFleece). Это изменённая версия.
+
 ## Лицензия
 
 GPL-3.0-or-later. Приложение не связано с Valve.
