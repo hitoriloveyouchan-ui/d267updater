@@ -1,6 +1,4 @@
 <img width="1280" height="320" alt="banner" src="https://github.com/user-attachments/assets/0d8dc0d1-9292-4631-b262-eee197c5951a" />
-# D2Changer
-Dota2 OpenSource SkinChanger
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1424"/><stop offset="1" stop-color="#10264a"/></linearGradient>
