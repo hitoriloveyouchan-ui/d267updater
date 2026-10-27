@@ -10,6 +10,6 @@
   <circle cx="160" cy="300" r="200" fill="url(#glow)" opacity=".5"/>
   <g fill="#8cc8ff" opacity=".55"><circle cx="120" cy="70" r="2"/><circle cx="260" cy="250" r="3"/><circle cx="520" cy="40" r="2"/><circle cx="760" cy="280" r="2.5"/><circle cx="930" cy="150" r="2"/><circle cx="1180" cy="240" r="3"/><circle cx="1210" cy="70" r="2"/></g>
   <text x="640" y="150" text-anchor="middle" font-family="Segoe UI, Exo 2, Arial, sans-serif" font-size="84" font-weight="800" fill="url(#title)">Менеджер модов</text>
-  <text x="640" y="205" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" fill="#9cc4ee">D2SkinChanger · косметика, предметы героев и эффекты для Dota 2</text>
+  <text x="640" y="205" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" fill="#9cc4ee">D2SkinChanger</text>
   <rect x="540" y="236" width="200" height="4" rx="2" fill="#4aa3ff" opacity=".8"/>
 </svg>
