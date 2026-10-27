@@ -27,11 +27,11 @@
 - **Пресеты** - сохраняй и меняй наборы одним кликом
 - **Автообновление** - новые версии ставятся сами
 
-## Демо
+## 
 
 <div align="center">
 
-<img src="docs/demo.gif" alt="Демо D2Changer" width="800">
+<img src="docs/banner.gif" alt="D2Changer" width="100%">
 
 </div>
 
