@@ -8,7 +8,7 @@
 
 [![Release](https://img.shields.io/github/v/release/ryuson3/d267updater?style=for-the-badge&color=2f7fd6)](https://github.com/ryuson3/d267updater/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/ryuson3/d267updater/total?style=for-the-badge&color=2f7fd6)](https://github.com/ryuson3/d267updater/releases)
-[![License](https://img.shields.io/badge/license-GPL--3.0-2f7fd6?style=for-the-badge)]
+[![License](https://img.shields.io/badge/license-GPL--3.0-2f7fd6?style=for-the-badge)](#лицензия)
 
 [**⬇ Скачать**](https://github.com/ryuson3/d267updater/releases/latest) · [Возможности](#возможности) · [Скриншоты](#скриншоты) · [Установка](#установка)
 
@@ -27,11 +27,11 @@
 - **Пресеты** - сохраняй и меняй наборы одним кликом
 - **Автообновление** - новые версии ставятся сами
 
-## 
+## D2Changer
 
 <div align="center">
 
-<img src="docs/banner.gif" alt="D2Changer" width="100%">
+<img src="docs/intro.webp" alt="D2Changer" width="800">
 
 </div>
 
@@ -69,7 +69,6 @@ npm run dist       # сборка установщика и portable
 ## Благодарности
 
 Окно «Косметика» собрано на коде [Dota 2 Mod Manager](https://github.com/TheFleece) (© 2026 TheFleece). Это изменённая версия.
-
 ## Лицензия
 
 GPL-3.0-or-later. Приложение не связано с Valve.
